@@ -77,7 +77,7 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 * **Karina Zermeño ** - *Trabajo Inicial* - [Lilith3Kaos](https://github.com/Lilith3kaos)
 
-## Consulta Doucumentación aute generada por Swagger ✒️
+## Consulta Doucumentación generada por Swagger ✒️
 http://localhost:8080/swagger-ui/index.html
 Nota: La aplicación debe estar funcionando para que se genere la documentación.
 
