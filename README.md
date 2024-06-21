@@ -1,14 +1,14 @@
 # FORO HUB
 
-_API DESTINADA A RECIBIR PETICIONES REST DE UN CLIENTE REALCIONADAS CON LA FUNCIONALIDAD ESPECIFICA DE UN FORO WEB DONDE SE PUEDE REGISTRAR UN TÓPICO, ACTUALIZAR TÓPICO,ELIMINAR TÓPICO, LISTAR TÓPICO Y AUTENTICAR USUARIO COMO FUNCIONALIDADES SOLICITADAS, Y APOYANDOSE CON FUNCIONALIDADES ADICIONALES PARA POBLAR CATALOGOS: REGISTRAR CURSOS,LISTAR CURSOS, REGISTRAR RESPUESTA  _
+API DESTINADA A RECIBIR PETICIONES REST DE UN CLIENTE REALCIONADAS CON LA FUNCIONALIDAD ESPECIFICA DE UN FORO WEB DONDE SE PUEDE REGISTRAR UN TÓPICO, ACTUALIZAR TÓPICO,ELIMINAR TÓPICO, LISTAR TÓPICO Y AUTENTICAR USUARIO COMO FUNCIONALIDADES SOLICITADAS, Y APOYANDOSE CON FUNCIONALIDADES ADICIONALES PARA POBLAR CATALOGOS: REGISTRAR CURSOS,LISTAR CURSOS, REGISTRAR RESPUESTA  
 
 ## Comenzando 🚀
 
 ### Pre-requisitos 📋
 
-_IntelliJ o alternativa similar como IDE_
-_Insomnia o alternativa similar como Herramienta de pruebas de API_
-_MySQL o alternativa similar como Manejador de Base de Datos_
+_IntelliJ o alternativa similar como IDE
+_Insomnia o alternativa similar como Herramienta de pruebas de API
+_MySQL o alternativa similar como Manejador de Base de Datos
 
 ```
 Es importante considerar que el nombre de la base de datos es "database_forohub".
@@ -43,28 +43,27 @@ JSON registrar tópico
 
 ### Instalación 🔧
 
-_Descarga el proyecto foro HUB en un .zip y desepaquetalo en la carpeta donde quieres situar tu proyecto ( carpeta de tu maquina local)._
+Descarga el proyecto foro HUB en un .zip y desepaquetalo en la carpeta donde quieres situar tu proyecto ( carpeta de tu maquina local).
 
-_Abre el proyecto con IntelliJ_
-_Verifica que las dependencias MAVEN se encuentren actualizadas_
-_Abre MySQL y crea tu base de datos, tiene que existir el esquema, solamente el nombre, pero es importante que exista y este conectada antes de intentar correr la API, ya que la primera vez creara las tablas en base de datos_
-_Es importante revisar que los mensajes/notificaciones de IntelliJ no marquen ningun error_
-_Revisa el esquema de base de datos para verificar que se crearon correctamente tus Tablas y sus Columnas_
-_El usuario en base de datos debe existir antes de probar Autenticar usuario_
+Abre el proyecto con IntelliJ
+Verifica que las dependencias MAVEN se encuentren actualizadas
+Abre MySQL y crea tu base de datos, tiene que existir el esquema, solamente el nombre, pero es importante que exista y este conectada antes de intentar correr la API, ya que la primera vez creara las tablas en base de datos
+Es importante revisar que los mensajes/notificaciones de IntelliJ no marquen ningun error
+Revisa el esquema de base de datos para verificar que se crearon correctamente tus Tablas y sus Columnas
+El usuario en base de datos debe existir antes de probar Autenticar usuario
 
 
 ## Ejecutando las pruebas ⚙️
 
-_PRUEBAS_
-_1. Autenticación: Desde Insomnia utilizar POST Autenticación para enviar usuario y contrasena, que deben de estar en la base de datos previamente._
-_Respuesta Esperada: Código 200_
-_2. Registrar Tópico: Desde Insomnia utilizar POST Registrar Tópico para registrar en Base de Datos un tópico o entrada en el FORO_
-_Respuesta Esperada:  Código 201_
-_IMPORTANTE: considerar los datos validos para registro de tópico, debe existir un curso en base de datos_
-_3. Listar Tópicos: Desde Insomnia utilizar el GET Listar Tópicos para recibir una lista de todos los tópicos_
-_Respuesta Esperada: Código 200 mas la lista de los tópicos_
-_4. Actualizar Tópico/Registrar Respuesta: Desde IntelliJ utilizar POST para registrar en Base de Datos una respuesta_
-_Respuesta Esperada: Código 201 mas la información del mensaje y el tópico asociado al mensaje._
+1. Autenticación: Desde Insomnia utilizar POST Autenticación para enviar usuario y contrasena, que deben de estar en la base de datos previamente.
+Respuesta Esperada: Código 200
+2. Registrar Tópico: Desde Insomnia utilizar POST Registrar Tópico para registrar en Base de Datos un tópico o entrada en el FORO
+Respuesta Esperada:  Código 201
+IMPORTANTE: considerar los datos validos para registro de tópico, debe existir un curso en base de datos
+3. Listar Tópicos: Desde Insomnia utilizar el GET Listar Tópicos para recibir una lista de todos los tópicos
+Respuesta Esperada: Código 200 mas la lista de los tópicos
+4. Actualizar Tópico/Registrar Respuesta: Desde IntelliJ utilizar POST para registrar en Base de Datos una respuesta
+Respuesta Esperada: Código 201 mas la información del mensaje y el tópico asociado al mensaje.
  
 ## Despliegue 📦
 
@@ -78,7 +77,14 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 * **Karina Zermeño ** - *Trabajo Inicial* - [Lilith3Kaos](https://github.com/Lilith3kaos)
 
+## Consulta Doucumentación aute generada por Swagger ✒️
+http://localhost:8080/swagger-ui/index.html
+Nota: La aplicación debe estar funcionando para que se genere la documentación.
+
+
+
+
 ## Expresiones de Gratitud 🎁
 
-*Last but not least, I wanna thank me
+Last but not least, I wanna thank me
 ---
